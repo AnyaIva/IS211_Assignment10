@@ -28,11 +28,11 @@ def main():
              pet_age = row[5]
              pet_dead = row[6]
              if pet_dead == 1:
-                 print ("{} {} is {} years old.".format(first_name, last_name, age)
-                 print ("{} {} owned {}, a {}, that was {} years old.".format(first_name, last_name, pet_name, pet_breed, pet_age)
+                 print ("{} {} is {} years old.").format(first_name, last_name, age)
+                 print ("{} {} owned {}, a {}, that was {} years old.").format(first_name, last_name, pet_name, pet_breed, pet_age)
              else:
-                 print ("{} {} is {} years old.".format(first_name, last_name, age)
-                 print ("{} {} owns {}, a {}, that is {} years old.".format(first_name, last_name, pet_name, pet_breed, pet_age)
+                 print ("{} {} is {} years old.").format(first_name, last_name, age)
+                 print ("{} {} owns {}, a {}, that is {} years old.").format(first_name, last_name, pet_name, pet_breed, pet_age)
                
 if __name__ == "__main__":
     main()
